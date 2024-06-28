@@ -1,7 +1,51 @@
 # QuantitativeStopCharging_magisk
 这是一个运行在安卓设备上的QSC定量停充magisk模块。
 
-[下载页面](https://github.com/410154425/QuantitativeStopCharging_magisk/releases)点击Assets选择压缩包QuantitativeStopCharging_magisk_***.zip，使用Magisk从本地安装。
+
+
+## QuantitativeStopCharging_magisk For Redmi K20 Pro
+
+**点击这里进入[为红米K20PRO适配的模块下载页面](https://github.com/Emotion04/QuantitativeStopCharging-For-K20Pro/tree/raphael).**
+
+经过多次测量，平衡了红米K20Pro的充电速度与温度，在尽可能不影响电池寿命的情况下使充电效率更高，同时有过热降低充电速度的功能，可以去除温控后作为快充模块使用。此版本为夏日版，充电速度限制更严格。
+
+[2022-06-31]
+
+- 现在过热时会停止充电了，等待温度恢复即可继续充电。
+
+[2022-07-09]
+
+- 在28℃室温下测试，修正电流以避免过热引起的中止充电
+
+[2022-10-29]
+
+- 更新了游戏中的充电速度限制
+
+[2022-12-28]
+
+- 重设参数，现在更加激进了
+
+[2023-03-23]
+
+- 恢复夏日版参数
+
+[2024-04-10]
+
+- 时隔一年再更新！大魔王老矣，为了提供更好的体验，充电速度更快了
+
+[2024-06-21]
+
+- 精简了原版的一些脚本
+
+
+
+
+
+## 原版说明
+
+点击这里进入原版[下载页面](https://github.com/410154425/QuantitativeStopCharging_magisk/releases)，点击Assets选择压缩包QuantitativeStopCharging_magisk_***.zip，使用Magisk从本地安装。
+
+
 
 用于指定电量、指定温度自动停止供电、恢复供电，指定电量模拟旁路充电、慢充充电，指定温度自定义电流，指定APP自定义电流，低电量推送消息到微信，可选是否兼容其它快充模块。
 
@@ -24,4 +68,6 @@
 7.自定义开关路径、自定义电流文件路径、自定义其它文件参数。
 
 8.自定义温度传感器路径：使用 “temp.sh” 脚本可获取所有温度传感器路径脚本，模块默认使用电池温度，脚本可获取其它温度传感器的路径，其中名称battery为电池温度，获取到路径填入配置文件即可（不填则默认使用电池温度，个别设备电池温度是固定不变化的）。
+
+
 
